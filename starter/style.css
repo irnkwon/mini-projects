@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Sofia Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
     margin: 0;
 }
