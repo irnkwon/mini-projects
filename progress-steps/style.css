@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
 :root {
-    --line-border-empty: #999;
-    --line-border-fill: #68bb59;
+    --line-border-empty: #E6EAFA;
+    --line-border-fill: #0044F1;
 }
 
 * {
@@ -10,6 +10,7 @@
 }
 
 body {
+    background-color: #F5F6FA;
     font-family: 'Sofia Sans';
     display: flex;
     justify-content: center;
@@ -69,6 +70,7 @@ body {
 }
 
 .circle.active {
+    color: var(--line-border-fill);
     border-color: var(--line-border-fill);
 }
 
@@ -79,8 +81,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-family: inherit;
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-size: 18px;
+    margin: 5px;
 }
 
 .btn:active {
