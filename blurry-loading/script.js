@@ -2,7 +2,7 @@ const loadingText = document.querySelector('.loading-text')
 const bg = document.querySelector('.bg')
 
 let percentage = 0
-let interval = setInterval(blurring, 30);
+let interval = setInterval(blurring, 30)
 
 function blurring() {
     percentage++
